@@ -39,7 +39,7 @@ It leverages **MobileNetV2** with **transfer learning** to accurately distinguis
 - It contains **real and forged signature samples** used for training, validation, and testing.  
 - The dataset and source code are archived on **Zenodo** for reproducibility.  
 
-🔗 **DOI (to be updated after Zenodo publication):** [https://doi.org/10.xxxxx/zenodo.xxxxxxx](https://doi.org/10.xxxxx/zenodo.xxxxxxx)
+🔗 **DOI (to be updated after Zenodo publication):** [https://doi.org/10.5281/zenodo.17475131]
 
 ---
 
