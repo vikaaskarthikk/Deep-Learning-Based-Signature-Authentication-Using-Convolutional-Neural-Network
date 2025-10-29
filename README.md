@@ -3,7 +3,7 @@
 [![Python](https://img.shields.io/badge/Python-3.11-blue)](https://www.python.org/)
 [![TensorFlow](https://img.shields.io/badge/TensorFlow-2.x-orange)](https://www.tensorflow.org/)
 [![Keras](https://img.shields.io/badge/Keras-2.x-red)](https://keras.io/)
-[![License](https://img.shields.io/badge/License-MIT-green)](LICENSE)
+[![License](https://img.shields.io/badge/License-CC0 1.0)-green)](LICENSE)
 
 ---
 
@@ -80,4 +80,4 @@ It leverages **MobileNetV2** with **transfer learning** to accurately distinguis
 ---
 
 ## ⚖️ License
-This project is released under the **MIT License**.
+This project is released under the **CC0**.
