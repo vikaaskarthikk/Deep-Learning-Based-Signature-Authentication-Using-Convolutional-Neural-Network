@@ -1,0 +1,29 @@
+Dataset Values
+Raw signature images: Store a sample of genuine and forged signatures. 
+Image preprocessing info: Resized dimensions (e.g., 224x224), Normalization method (e.g., pixel values scaled to [0,1]), Augmentation applied (rotation, shift, shear, zoom, etc.)
+
+Values Behind Reported Metrics
+Save raw values used to calculate means, standard deviations, and accuracy metrics in CSV or JSON format.
+Include per-user accuracy, precision, recall, and F1-score.
+| UserID | Genuine_Accuracy | Forged_Accuracy | Precision | Recall | F1_Score |
+| ------ | ---------------- | --------------- | --------- | ------ | -------- |
+| 001    | 0.95             | 0.97            | 0.96      | 0.95   | 0.955    |
+| 002    | 0.92             | 0.93            | 0.94      | 0.92   | 0.93     |
+| ...    | ...              | ...             | ...       | ...    | ...      |
+
+Values Used to Build Graphs
+Save accuracy/loss values per epoch during training for reproducibility:
+accuracy_per_epoch.csv
+loss_per_epoch.csv
+| Epoch | Accuracy | Loss |
+| ----- | -------- | ---- |
+| 1     | 0.85     | 0.45 |
+| 2     | 0.88     | 0.38 |
+| 3     | 0.91     | 0.32 |
+| ...   | ...      | ...  |
+These files can be used to recreate your graphs in Matplotlib or Seaborn.
+
+Points Extracted from Images
+For CNN models, raw feature points aren’t directly visible, but you can save:
+Outputs from intermediate layers (feature maps)
+Flattened embeddings from MobileNetV2 before classification head.
